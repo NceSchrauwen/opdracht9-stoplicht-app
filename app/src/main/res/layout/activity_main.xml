@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!--   Default mode button to send the default mode command-->
+    <Button
+        android:id="@+id/button_default_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default Mode"
+        android:layout_marginBottom="24dp"/>
+
+    <!--   Stoplight mode button to send the stoplight mode command-->
+    <Button
+        android:id="@+id/button_stoplight_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stoplight Mode"/>
+
+    <!--   Reconnect to hc-05 button to try and reconnect to the device in case of disconnection-->
+    <Button
+        android:id="@+id/reconnect_hc05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reconnect to HC-05"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
