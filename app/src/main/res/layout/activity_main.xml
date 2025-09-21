@@ -7,7 +7,7 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <!--   Default mode button to send the default mode command-->
+    <!--   Default modus knop (default modus commando versturen) -->
     <Button
         android:id="@+id/button_default_mode"
         android:layout_width="match_parent"
@@ -15,14 +15,14 @@
         android:text="Default Mode"
         android:layout_marginBottom="24dp"/>
 
-    <!--   Stoplight mode button to send the stoplight mode command-->
+    <!--   Stoplicht modus knop (stoplicht modus commando versturen) -->
     <Button
         android:id="@+id/button_stoplight_mode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Stoplight Mode"/>
 
-    <!--   Reconnect to hc-05 button to try and reconnect to the device in case of disconnection-->
+    <!--   Reconnect to hc-05 knop (om zo opnieuw te verbinden met het HC-05 element) -->
     <Button
         android:id="@+id/reconnect_hc05"
         android:layout_width="wrap_content"
